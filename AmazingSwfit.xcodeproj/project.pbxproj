@@ -103,6 +103,7 @@
 				5F77542823E95CD900703151 /* Sources */,
 				5F77542923E95CD900703151 /* Frameworks */,
 				5F77542A23E95CD900703151 /* Resources */,
+				4E880A4F291FA9C35B415629 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +161,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4E880A4F291FA9C35B415629 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AmazingSwfit/Pods-AmazingSwfit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AmazingSwfit/Pods-AmazingSwfit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AmazingSwfit/Pods-AmazingSwfit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8F1D903B9501C795C0E9C8D0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
