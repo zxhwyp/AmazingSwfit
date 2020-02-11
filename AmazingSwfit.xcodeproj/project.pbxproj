@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		5F77543723E95CD900703151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F77543523E95CD900703151 /* Main.storyboard */; };
 		5F77543923E95CDD00703151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F77543823E95CDD00703151 /* Assets.xcassets */; };
 		5F77543C23E95CDD00703151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F77543A23E95CDD00703151 /* LaunchScreen.storyboard */; };
+		5FE63E9B23F2F79600BD06F4 /* VCLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE63E9A23F2F79600BD06F4 /* VCLogin.swift */; };
+		5FE63E9D23F2F81F00BD06F4 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE63E9C23F2F81F00BD06F4 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		5F77543823E95CDD00703151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F77543B23E95CDD00703151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F77543D23E95CDD00703151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE63E9A23F2F79600BD06F4 /* VCLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCLogin.swift; sourceTree = "<group>"; };
+		5FE63E9C23F2F81F00BD06F4 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		6B900513841C23F05A5E34BB /* Pods_AmazingSwfit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmazingSwfit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		723DFD88AA5BC6CB3DF039E9 /* Pods-AmazingSwfit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazingSwfit.release.xcconfig"; path = "Target Support Files/Pods-AmazingSwfit/Pods-AmazingSwfit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,15 +67,65 @@
 		5F77542E23E95CD900703151 /* AmazingSwfit */ = {
 			isa = PBXGroup;
 			children = (
+				5FE63E9723F2F71A00BD06F4 /* Models */,
+				5FE63E9823F2F72300BD06F4 /* Views */,
+				5FE63E9623F2F70B00BD06F4 /* ViewModels */,
+				5FE63E9523F2F6FA00BD06F4 /* Utils */,
+				5FBD84E923F2F44D00279ED6 /* Support Files */,
+			);
+			path = AmazingSwfit;
+			sourceTree = "<group>";
+		};
+		5FBD84E923F2F44D00279ED6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
 				5F77542F23E95CD900703151 /* AppDelegate.swift */,
-				5F77543123E95CD900703151 /* SceneDelegate.swift */,
 				5F77543323E95CD900703151 /* ViewController.swift */,
+				5F77543123E95CD900703151 /* SceneDelegate.swift */,
 				5F77543523E95CD900703151 /* Main.storyboard */,
 				5F77543823E95CDD00703151 /* Assets.xcassets */,
 				5F77543A23E95CDD00703151 /* LaunchScreen.storyboard */,
 				5F77543D23E95CDD00703151 /* Info.plist */,
 			);
-			path = AmazingSwfit;
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		5FE63E9523F2F6FA00BD06F4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5FE63E9C23F2F81F00BD06F4 /* Common.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5FE63E9623F2F70B00BD06F4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5FE63E9723F2F71A00BD06F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5FE63E9823F2F72300BD06F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5FE63E9923F2F76100BD06F4 /* Login */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5FE63E9923F2F76100BD06F4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5FE63E9A23F2F79600BD06F4 /* VCLogin.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		ABE79AC846DA3C1AFFB8532F /* Frameworks */ = {
@@ -88,7 +142,6 @@
 				272BC71FD61E819E159F99A5 /* Pods-AmazingSwfit.debug.xcconfig */,
 				723DFD88AA5BC6CB3DF039E9 /* Pods-AmazingSwfit.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -209,6 +262,8 @@
 			files = (
 				5F77543423E95CD900703151 /* ViewController.swift in Sources */,
 				5F77543023E95CD900703151 /* AppDelegate.swift in Sources */,
+				5FE63E9B23F2F79600BD06F4 /* VCLogin.swift in Sources */,
+				5FE63E9D23F2F81F00BD06F4 /* Common.swift in Sources */,
 				5F77543223E95CD900703151 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,14 +411,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3XBRW7STU5;
-				INFOPLIST_FILE = AmazingSwfit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AmazingSwfit/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gunma.duoke.AmazingSwfit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -375,14 +430,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3XBRW7STU5;
-				INFOPLIST_FILE = AmazingSwfit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AmazingSwfit/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gunma.duoke.AmazingSwfit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

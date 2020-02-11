@@ -6,7 +6,9 @@ target 'AmazingSwfit' do
   pod 'RxSwift', '~> 5'
   pod 'RxCocoa', '~> 5'
   pod 'URLNavigator'
-  pod 'RxAlamofire'
+  pod 'Moya', '~> 13.0'
+  pod 'SnapKit', '~> 4.0.0'
+  pod 'EZSwiftExtensions' #Stable release for Swift 3.0
 
 
 end
