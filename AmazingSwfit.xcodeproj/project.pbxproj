@@ -14,8 +14,11 @@
 		5F77543723E95CD900703151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F77543523E95CD900703151 /* Main.storyboard */; };
 		5F77543923E95CDD00703151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F77543823E95CDD00703151 /* Assets.xcassets */; };
 		5F77543C23E95CDD00703151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F77543A23E95CDD00703151 /* LaunchScreen.storyboard */; };
-		5FE63E9B23F2F79600BD06F4 /* VCLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE63E9A23F2F79600BD06F4 /* VCLogin.swift */; };
+		5FBA422523F4407800368B95 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBA422423F4407800368B95 /* BaseViewController.swift */; };
+		5FBA422723F4486F00368B95 /* NavigatorMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBA422623F4486F00368B95 /* NavigatorMap.swift */; };
+		5FE63E9B23F2F79600BD06F4 /* VcLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE63E9A23F2F79600BD06F4 /* VcLogin.swift */; };
 		5FE63E9D23F2F81F00BD06F4 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE63E9C23F2F81F00BD06F4 /* Common.swift */; };
+		5FE63EA123F307C800BD06F4 /* ThreePatryModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE63EA023F307C800BD06F4 /* ThreePatryModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +31,11 @@
 		5F77543823E95CDD00703151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F77543B23E95CDD00703151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F77543D23E95CDD00703151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FE63E9A23F2F79600BD06F4 /* VCLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCLogin.swift; sourceTree = "<group>"; };
+		5FBA422423F4407800368B95 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		5FBA422623F4486F00368B95 /* NavigatorMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorMap.swift; sourceTree = "<group>"; };
+		5FE63E9A23F2F79600BD06F4 /* VcLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VcLogin.swift; sourceTree = "<group>"; };
 		5FE63E9C23F2F81F00BD06F4 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		5FE63EA023F307C800BD06F4 /* ThreePatryModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreePatryModule.swift; sourceTree = "<group>"; };
 		6B900513841C23F05A5E34BB /* Pods_AmazingSwfit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmazingSwfit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		723DFD88AA5BC6CB3DF039E9 /* Pods-AmazingSwfit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazingSwfit.release.xcconfig"; path = "Target Support Files/Pods-AmazingSwfit/Pods-AmazingSwfit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,9 +77,18 @@
 				5FE63E9823F2F72300BD06F4 /* Views */,
 				5FE63E9623F2F70B00BD06F4 /* ViewModels */,
 				5FE63E9523F2F6FA00BD06F4 /* Utils */,
+				5FE63E9F23F306AE00BD06F4 /* CommonExtension */,
 				5FBD84E923F2F44D00279ED6 /* Support Files */,
 			);
 			path = AmazingSwfit;
+			sourceTree = "<group>";
+		};
+		5FBA422323F4405400368B95 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5FBA422423F4407800368B95 /* BaseViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		5FBD84E923F2F44D00279ED6 /* Support Files */ = {
@@ -94,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				5FE63E9C23F2F81F00BD06F4 /* Common.swift */,
+				5FE63EA023F307C800BD06F4 /* ThreePatryModule.swift */,
+				5FBA422623F4486F00368B95 /* NavigatorMap.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -115,6 +132,7 @@
 		5FE63E9823F2F72300BD06F4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5FBA422323F4405400368B95 /* Base */,
 				5FE63E9923F2F76100BD06F4 /* Login */,
 			);
 			path = Views;
@@ -123,9 +141,16 @@
 		5FE63E9923F2F76100BD06F4 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				5FE63E9A23F2F79600BD06F4 /* VCLogin.swift */,
+				5FE63E9A23F2F79600BD06F4 /* VcLogin.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		5FE63E9F23F306AE00BD06F4 /* CommonExtension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommonExtension;
 			sourceTree = "<group>";
 		};
 		ABE79AC846DA3C1AFFB8532F /* Frameworks */ = {
@@ -261,9 +286,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F77543423E95CD900703151 /* ViewController.swift in Sources */,
+				5FE63EA123F307C800BD06F4 /* ThreePatryModule.swift in Sources */,
 				5F77543023E95CD900703151 /* AppDelegate.swift in Sources */,
-				5FE63E9B23F2F79600BD06F4 /* VCLogin.swift in Sources */,
+				5FE63E9B23F2F79600BD06F4 /* VcLogin.swift in Sources */,
 				5FE63E9D23F2F81F00BD06F4 /* Common.swift in Sources */,
+				5FBA422523F4407800368B95 /* BaseViewController.swift in Sources */,
+				5FBA422723F4486F00368B95 /* NavigatorMap.swift in Sources */,
 				5F77543223E95CD900703151 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

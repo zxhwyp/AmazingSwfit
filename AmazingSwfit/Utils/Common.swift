@@ -8,12 +8,11 @@
 
 import Foundation
 import UIKit
-
 ///屏幕宽
-let WindowW = UIScreen.main.bounds.width
+let ScreenWidth = UIScreen.main.bounds.width
 
 ///屏幕高
-let WindowH = UIScreen.main.bounds.height
+let ScreenHeight = UIScreen.main.bounds.height
 
 
 /// 自定义打印函数

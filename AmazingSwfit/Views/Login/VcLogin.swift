@@ -7,17 +7,14 @@
 //
 
 import UIKit
+import URLNavigator
 
-class VCLogin: UIViewController {
-
+class VcLogin: BaseViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+                        
         logger(message: "zzzz")
 
     }
-    
-    
-    
-
 }
