@@ -9,12 +9,28 @@
 import UIKit
 import URLNavigator
 
+prefix operator <--
+
 class VcLogin: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
                         
-        logger(message: "zzzz")
+        zlogger(message: "zzzz")
+        
+        <--self
+    }
+    
+    static prefix func <--(vc: VcLogin) {
+        zlogger(message: "fdd")
+    }
+    
+}
 
+
+struct People {
+    
+    static prefix func + (p1: People) {
+        
     }
 }

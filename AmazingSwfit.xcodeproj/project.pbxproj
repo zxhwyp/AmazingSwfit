@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		28B9BC29AD18C6D64935F1A0 /* Pods_AmazingSwfit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B900513841C23F05A5E34BB /* Pods_AmazingSwfit.framework */; };
+		5F6056FF23F91DC8007714A3 /* GoodsAttributeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6056FE23F91DC8007714A3 /* GoodsAttributeVC.swift */; };
+		5F60570423F92B87007714A3 /* BaseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F60570323F92B87007714A3 /* BaseVM.swift */; };
+		5F60570723F92BEE007714A3 /* GoodsAttriVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F60570623F92BEE007714A3 /* GoodsAttriVM.swift */; };
+		5F60570A23F92C92007714A3 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F60570923F92C92007714A3 /* BaseModel.swift */; };
+		5F60570D23F92CD9007714A3 /* GoodsAttriModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F60570C23F92CD9007714A3 /* GoodsAttriModel.swift */; };
 		5F77543023E95CD900703151 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F77542F23E95CD900703151 /* AppDelegate.swift */; };
 		5F77543223E95CD900703151 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F77543123E95CD900703151 /* SceneDelegate.swift */; };
 		5F77543423E95CD900703151 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F77543323E95CD900703151 /* ViewController.swift */; };
@@ -18,11 +23,17 @@
 		5FBA422723F4486F00368B95 /* NavigatorMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBA422623F4486F00368B95 /* NavigatorMap.swift */; };
 		5FE63E9B23F2F79600BD06F4 /* VcLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE63E9A23F2F79600BD06F4 /* VcLogin.swift */; };
 		5FE63E9D23F2F81F00BD06F4 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE63E9C23F2F81F00BD06F4 /* Common.swift */; };
-		5FE63EA123F307C800BD06F4 /* ThreePatryModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE63EA023F307C800BD06F4 /* ThreePatryModule.swift */; };
+		5FF3678D24079D64005ACB47 /* CellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF3678C24079D64005ACB47 /* CellTest.swift */; };
+		5FF3678F2407B707005ACB47 /* ThreePatryModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF3678E2407B707005ACB47 /* ThreePatryModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		272BC71FD61E819E159F99A5 /* Pods-AmazingSwfit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazingSwfit.debug.xcconfig"; path = "Target Support Files/Pods-AmazingSwfit/Pods-AmazingSwfit.debug.xcconfig"; sourceTree = "<group>"; };
+		5F6056FE23F91DC8007714A3 /* GoodsAttributeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsAttributeVC.swift; sourceTree = "<group>"; };
+		5F60570323F92B87007714A3 /* BaseVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVM.swift; sourceTree = "<group>"; };
+		5F60570623F92BEE007714A3 /* GoodsAttriVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsAttriVM.swift; sourceTree = "<group>"; };
+		5F60570923F92C92007714A3 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		5F60570C23F92CD9007714A3 /* GoodsAttriModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsAttriModel.swift; sourceTree = "<group>"; };
 		5F77542C23E95CD900703151 /* AmazingSwfit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazingSwfit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F77542F23E95CD900703151 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F77543123E95CD900703151 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +46,8 @@
 		5FBA422623F4486F00368B95 /* NavigatorMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorMap.swift; sourceTree = "<group>"; };
 		5FE63E9A23F2F79600BD06F4 /* VcLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VcLogin.swift; sourceTree = "<group>"; };
 		5FE63E9C23F2F81F00BD06F4 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
-		5FE63EA023F307C800BD06F4 /* ThreePatryModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreePatryModule.swift; sourceTree = "<group>"; };
+		5FF3678C24079D64005ACB47 /* CellTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTest.swift; sourceTree = "<group>"; };
+		5FF3678E2407B707005ACB47 /* ThreePatryModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThreePatryModule.swift; path = ../../../.Trash/ThreePatryModule.swift; sourceTree = "<group>"; };
 		6B900513841C23F05A5E34BB /* Pods_AmazingSwfit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmazingSwfit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		723DFD88AA5BC6CB3DF039E9 /* Pods-AmazingSwfit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazingSwfit.release.xcconfig"; path = "Target Support Files/Pods-AmazingSwfit/Pods-AmazingSwfit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,6 +64,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F6056FD23F91D6C007714A3 /* Goods */ = {
+			isa = PBXGroup;
+			children = (
+				5F6056FE23F91DC8007714A3 /* GoodsAttributeVC.swift */,
+			);
+			path = Goods;
+			sourceTree = "<group>";
+		};
+		5F60570123F926AD007714A3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5FF3678C24079D64005ACB47 /* CellTest.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5F60570223F92B50007714A3 /* BaseViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5F60570323F92B87007714A3 /* BaseVM.swift */,
+			);
+			path = BaseViewModel;
+			sourceTree = "<group>";
+		};
+		5F60570523F92BB0007714A3 /* GoodsAttri */ = {
+			isa = PBXGroup;
+			children = (
+				5F60570623F92BEE007714A3 /* GoodsAttriVM.swift */,
+			);
+			path = GoodsAttri;
+			sourceTree = "<group>";
+		};
+		5F60570823F92C14007714A3 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				5F60570923F92C92007714A3 /* BaseModel.swift */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		5F60570B23F92CA8007714A3 /* GoodsAttri */ = {
+			isa = PBXGroup;
+			children = (
+				5F60570C23F92CD9007714A3 /* GoodsAttriModel.swift */,
+			);
+			path = GoodsAttri;
+			sourceTree = "<group>";
+		};
 		5F77542323E95CD900703151 = {
 			isa = PBXGroup;
 			children = (
@@ -108,8 +168,8 @@
 		5FE63E9523F2F6FA00BD06F4 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				5FF3678E2407B707005ACB47 /* ThreePatryModule.swift */,
 				5FE63E9C23F2F81F00BD06F4 /* Common.swift */,
-				5FE63EA023F307C800BD06F4 /* ThreePatryModule.swift */,
 				5FBA422623F4486F00368B95 /* NavigatorMap.swift */,
 			);
 			path = Utils;
@@ -118,6 +178,8 @@
 		5FE63E9623F2F70B00BD06F4 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				5F60570223F92B50007714A3 /* BaseViewModel */,
+				5F60570523F92BB0007714A3 /* GoodsAttri */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -125,6 +187,8 @@
 		5FE63E9723F2F71A00BD06F4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5F60570823F92C14007714A3 /* BaseModel */,
+				5F60570B23F92CA8007714A3 /* GoodsAttri */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -133,6 +197,8 @@
 			isa = PBXGroup;
 			children = (
 				5FBA422323F4405400368B95 /* Base */,
+				5F60570123F926AD007714A3 /* Cells */,
+				5F6056FD23F91D6C007714A3 /* Goods */,
 				5FE63E9923F2F76100BD06F4 /* Login */,
 			);
 			path = Views;
@@ -285,11 +351,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F60570723F92BEE007714A3 /* GoodsAttriVM.swift in Sources */,
+				5F60570D23F92CD9007714A3 /* GoodsAttriModel.swift in Sources */,
 				5F77543423E95CD900703151 /* ViewController.swift in Sources */,
-				5FE63EA123F307C800BD06F4 /* ThreePatryModule.swift in Sources */,
 				5F77543023E95CD900703151 /* AppDelegate.swift in Sources */,
 				5FE63E9B23F2F79600BD06F4 /* VcLogin.swift in Sources */,
+				5F60570423F92B87007714A3 /* BaseVM.swift in Sources */,
+				5FF3678D24079D64005ACB47 /* CellTest.swift in Sources */,
+				5F60570A23F92C92007714A3 /* BaseModel.swift in Sources */,
 				5FE63E9D23F2F81F00BD06F4 /* Common.swift in Sources */,
+				5FF3678F2407B707005ACB47 /* ThreePatryModule.swift in Sources */,
+				5F6056FF23F91DC8007714A3 /* GoodsAttributeVC.swift in Sources */,
 				5FBA422523F4407800368B95 /* BaseViewController.swift in Sources */,
 				5FBA422723F4486F00368B95 /* NavigatorMap.swift in Sources */,
 				5F77543223E95CD900703151 /* SceneDelegate.swift in Sources */,

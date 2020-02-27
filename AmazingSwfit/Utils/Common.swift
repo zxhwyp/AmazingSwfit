@@ -16,7 +16,7 @@ let ScreenHeight = UIScreen.main.bounds.height
 
 
 /// 自定义打印函数
-func logger(message: Any, file: String = #file, _ line: Int = #line) {
+func zlogger(message: Any, file: String = #file, _ line: Int = #line) {
     #if DEBUG
     let filename =  (file as NSString).lastPathComponent
     

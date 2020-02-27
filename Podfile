@@ -9,6 +9,8 @@ target 'AmazingSwfit' do
   pod 'Moya', '~> 13.0'
   pod 'SnapKit', '~> 4.0.0'
   pod 'EZSwiftExtensions' #Stable release for Swift 3.0
+  pod 'ObjectMapper', '~> 3.4'
+  pod 'RxDataSources', '~> 4.0'
 
 
 end
